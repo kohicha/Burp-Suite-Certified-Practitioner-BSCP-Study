@@ -35,7 +35,8 @@
               "title": "SQL injection UNION attack, retrieving data from other tables"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,12 +181,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72c2fb1b1817b5a1",
+  "active": "66e48aed2fedd077",
   "lastOpenFiles": [
+    "Notes/UNION Attacks.md",
     "Notes/SQL injection UNION attack, retrieving data from other tables.md",
     "Assets/Pasted image 20250514002326.png",
     "Assets/Pasted image 20250514002228.png",
-    "Notes/UNION Attacks.md",
     "Notes/SQL injection UNION attack, determining the number of columns returned by the query.md",
     "Notes/SQL injection UNION attack, finding a column containing text.md",
     "Assets/{AED50325-2AB5-47E7-B18F-23B718BF2979}.png",
