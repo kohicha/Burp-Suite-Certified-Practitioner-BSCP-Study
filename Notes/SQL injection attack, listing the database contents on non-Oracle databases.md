@@ -10,8 +10,12 @@ tags:
 ![[Pasted image 20250515154025.png]]
 3. Test for UNION attacks
 ![[Pasted image 20250515154100.png]]
-4. 
+4. Query the table_name
+![[Pasted image 20250515155057.png]]
+5. Query the column name of the table we found
+![[Pasted image 20250515155214.png]]
+6. Query the contents of the table `users_eyzsbs`
 
-
+7. 
 
 
