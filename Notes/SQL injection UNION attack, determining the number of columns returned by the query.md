@@ -3,6 +3,7 @@ Title: SQL injection UNION attack, determining the number of columns returned by
 tags:
   - Labs
   - SQLi
+  - UNIONATTACKS
 ---
 # SQL injection UNION attack, determining the number of columns returned by the query
 1. Get a request in burp

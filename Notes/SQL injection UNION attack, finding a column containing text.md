@@ -3,6 +3,7 @@ Title: SQL injection UNION attack, finding a column containing text
 tags:
   - Labs
   - SQLi
+  - UNIONATTACKS
 ---
 # SQL injection UNION attack, finding a column containing text
 1. Grab a request in Burp

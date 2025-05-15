@@ -1,7 +1,9 @@
 ---
-Title: "SQL injection attack, querying the database type and version on MySQL and Microsoft"
+Title: SQL injection attack, querying the database type and version on MySQL and Microsoft
 tags:
   - Labs
+  - UNIONATTACKS
+  - SQLi
 ---
 1. Start by intercepting a request on the filter category functionality
 ![[Pasted image 20250515152806.png]]
