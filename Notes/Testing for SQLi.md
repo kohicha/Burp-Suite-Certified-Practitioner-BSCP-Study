@@ -10,6 +10,12 @@ Boolean based sqli
 
 `'OR 1 = 1--`
 
+# Querying the database
+| DATABASE         | QUERY                     |
+| ---------------- | ------------------------- |
+| Microsoft, MySQL | `SELECT @@version`        |
+| Oracle           | `SELECT * FROM v$version` |
+| PostgreSQL       | `SELECT version()`        |
 
 
 
