@@ -6,6 +6,8 @@ tags:
 ---
 Blind SQL is not necessarily being "blind", but rather looking at other intricacies the application returns whenever you inject a query. 
 
+# Exploiting conditional responses
+
 For example, we have this vulnerable cookie.
 ```
 Cookie: TrackingId=abcdefghijklmnopqrstuvwxyz
@@ -29,4 +31,3 @@ A successful query will return "Welcome!", and an unsuccessful one will return n
 > 
 > xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 'm
 > -- this function is as follows, where the first letter of the password of administrator is greater than m
-
