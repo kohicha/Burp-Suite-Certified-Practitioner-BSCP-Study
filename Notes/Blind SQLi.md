@@ -11,12 +11,15 @@ Cookie: TrackingId=abcdefghijklmnopqrstuvwxyz
 ```
 > [!The query that the TrackingId uses ]
 > ```sql
-SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'abcdefghijklmnopqrstuvwxyz
+SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'abcdefghijklmnopqrstuvwxyz'
 
 A successful query will return "Welcome!", and an unsuccessful one will return nothing. We can exploit this functionality by injecting arbitrary sql queries, and constantly checking if the query returns "Welcome!" or not.
 
 > [!Example]
 > ```sql
-> SELECT `' AND '1'='1`
+> SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'abcdefghijklmnopqrstuvwxyz' ' AND '1'='1
+> -- above returns true
+> SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'abcdefghijklmnopqrstuvwxyz' ' AND '1'='2
+> -- above returns false
 
 
