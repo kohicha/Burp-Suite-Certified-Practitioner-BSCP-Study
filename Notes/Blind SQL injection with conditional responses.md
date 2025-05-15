@@ -18,3 +18,5 @@ The query may be as follows:
 ![[Pasted image 20250515181138.png]]
 3.  Slowly build the administrator's password
 ![[Pasted image 20250515181633.png]]
+4. test the final pass
+5. 
