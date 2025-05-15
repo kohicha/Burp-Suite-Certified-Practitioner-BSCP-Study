@@ -29,3 +29,4 @@ A successful query will return "Welcome!", and an unsuccessful one will return n
 > 
 > xyz' AND SUBSTRING((SELECT Password FROM Users WHERE Username = 'Administrator'), 1, 1) > 'm
 > -- this function is as follows, where the first letter of the password of administrator is greater than m
+
