@@ -16,4 +16,5 @@ The query may be as follows:
 > This one returns Welcome
 ![[Pasted image 20250515181057.png]]
 ![[Pasted image 20250515181138.png]]
-3. 
+3.  Slowly build the administrator's password
+![[Pasted image 20250515181633.png]]
