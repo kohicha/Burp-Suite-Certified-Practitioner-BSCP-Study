@@ -22,10 +22,17 @@ To further understand this, let's create the sample query:
 > [!Sample query]
 > ```sql
 > SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'some-id-here'
-> --- for example, this is the query that is being executed in the server
-> ```
-> [!hello]
+> --- now let's say for example this is our payload
+> --- '||(SELECT '' FROM dual)'
+> --- it will appear on the query that will be executed like this
+> SELECT TrackingId FROM TrackedUsers WHERE TrackingId = 'some-id-here'||(SELECT '' FROM dual)||'
+> --- the inside parameter is like an eval, which returns the string ''.
 > 
+
+
+
+
+ 
 
 
 
