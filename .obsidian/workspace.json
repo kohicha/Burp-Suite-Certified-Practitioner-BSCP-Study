@@ -34,19 +34,8 @@
               "icon": "lucide-file",
               "title": "Blind SQL injection with conditional responses"
             }
-          },
-          {
-            "id": "4317abf0814005d8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,10 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8980d20a37496ac1",
+  "active": "72c2fb1b1817b5a1",
   "lastOpenFiles": [
-    "Notes/Blind SQLi.md",
     "Notes/Blind SQL injection with conditional responses.md",
+    "Assets/Pasted image 20250515184512.png",
+    "Notes/Blind SQLi.md",
     "Assets/Pasted image 20250515181633.png",
     "Assets/Pasted image 20250515181625.png",
     "Assets/Pasted image 20250515181138.png",
@@ -212,7 +202,6 @@
     "Notes/Testing for SQLi.md",
     "Assets/Pasted image 20250515160443.png",
     "Assets/Pasted image 20250515155214.png",
-    "Assets/Pasted image 20250515155209.png",
     "Notes/UNION Attacks.md",
     "Templates/Portswigger lab.md",
     "Templates/Note Template.md",
