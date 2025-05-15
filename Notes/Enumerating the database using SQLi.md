@@ -13,7 +13,13 @@ tags:
 | Oracle           | `SELECT * FROM v$version` |
 | PostgreSQL       | `SELECT version()`        |
 
-### Get some information on tables 
+### Query table information
+> Basic query
+```sql
+SELECT * FROM information_schema.tables
+
+SELECT * FROM information_scheme.columns WHERE table_name = '<table-name>'
+```
 
 
 
