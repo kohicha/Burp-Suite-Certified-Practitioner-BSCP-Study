@@ -8,7 +8,8 @@ To test whether sqli is possible, we have to manually do these "checks", if an s
 
 Boolean based sqli
 
-`'OR 1 = 1--`
+`' OR 1 = 1--`
+`' OR 1 = 1#`
 
 # Querying the database
 | DATABASE         | QUERY                     |
