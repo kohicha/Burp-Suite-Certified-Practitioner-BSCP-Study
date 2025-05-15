@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "95eb383eaeaa95ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Enumerating the database using SQLi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enumerating the database using SQLi"
+            }
+          },
+          {
             "id": "05bc09a204fbc4f1",
             "type": "leaf",
             "state": {
@@ -181,12 +195,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "05bc09a204fbc4f1",
+  "active": "95eb383eaeaa95ef",
   "lastOpenFiles": [
+    "Notes/Testing for SQLi.md",
+    "Notes/Enumerating the database using SQLi.md",
+    "Notes/SQL injection attack, querying the database type and version on MySQL and Microsoft.md",
+    "Assets/Pasted image 20250515152947.png",
     "Assets/Pasted image 20250515152806.png",
     "Assets/Pasted image 20250515152801.png",
-    "Notes/Testing for SQLi.md",
-    "Notes/SQL injection attack, querying the database type and version on MySQL and Microsoft.md",
     "Notes/UNION Attacks.md",
     "Notes/SQL injection UNION attack, retrieving data from other tables.md",
     "Notes/SQL injection vulnerability allowing login bypass.md",
@@ -199,9 +215,7 @@
     "Assets/{B5811333-530C-4C9B-B814-EB52D85D8CBC}.png",
     "Assets/{BB9005AA-53E4-4238-AFC2-B0C4B039272E}.png",
     "Assets/{52209A9C-8652-4D14-8888-A83CAE0E7970}.png",
-    "Assets/{55E86194-E8C4-427E-BD36-CBCA16D169E5}.png",
     "Templates/Portswigger lab.md",
-    "Assets/{7948A169-1DD1-437A-98A5-8959A7760EC3}.png",
     "Templates/Note Template.md",
     "README.md",
     "Assets",

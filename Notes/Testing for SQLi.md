@@ -11,12 +11,10 @@ Boolean based sqli
 `' OR 1 = 1--`
 `' OR 1 = 1#`
 
-# Querying the database
-| DATABASE         | QUERY                     |
-| ---------------- | ------------------------- |
-| Microsoft, MySQL | `SELECT @@version`        |
-| Oracle           | `SELECT * FROM v$version` |
-| PostgreSQL       | `SELECT version()`        |
+# Test what attack works
+[[UNION Attacks]]
+
+# Start enumerating the database for information
 
 
 
