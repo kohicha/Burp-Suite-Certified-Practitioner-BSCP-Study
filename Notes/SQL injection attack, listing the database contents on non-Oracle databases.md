@@ -15,7 +15,8 @@ tags:
 5. Query the column name of the table we found
 ![[Pasted image 20250515155214.png]]
 6. Query the contents of the table `users_eyzsbs`
+![[Pasted image 20250515160443.png]]
+7. Login as administrator
 
-7. 
 
 
