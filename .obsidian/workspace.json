@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Blind SQL injection with conditional responses.md",
+                "file": "Notes/Blind SQL injection with time delays and information retrieval.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blind SQL injection with conditional responses"
+              "title": "Blind SQL injection with time delays and information retrieval"
             }
           }
         ]
@@ -168,9 +168,11 @@
   },
   "active": "8faf03a58e5db904",
   "lastOpenFiles": [
+    "Assets/Pasted image 20250516194643.png",
+    "Assets/Pasted image 20250516194624.png",
+    "Notes/Blind SQL injection with conditional responses.md",
     "Notes/Visible error-based SQL injection.md",
     "Notes/Blind SQLi.md",
-    "Notes/Blind SQL injection with conditional responses.md",
     "Notes/Blind SQL injection with time delays and information retrieval.md",
     "Assets/Pasted image 20250516191806.png",
     "Notes/Error-based SQLi.md",
@@ -182,7 +184,6 @@
     "Assets/Pasted image 20250515222600.png",
     "Assets/Pasted image 20250515222509.png",
     "Assets/Pasted image 20250515222410.png",
-    "Assets/Pasted image 20250515222406.png",
     "Notes/Blind SQL injection with conditional errors.md",
     "Notes/Enumerating the database using SQLi.md",
     "Notes/SQL injection attack, listing the database contents on non-Oracle databases.md",

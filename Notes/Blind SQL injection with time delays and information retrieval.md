@@ -7,7 +7,9 @@ tags:
 ---
 1. Intercept a request from the filter category functionality
 ![[Pasted image 20250516191806.png]]
-2. 
+2. Woopsie, I accidentally finished it ToT
+![[Pasted image 20250516194624.png]]
+![[Pasted image 20250516194643.png]]
 
 
 
