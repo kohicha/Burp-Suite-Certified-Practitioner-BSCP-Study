@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Testing for SQLi.md",
+                "file": "Notes/Blind SQL injection with time delays and information retrieval.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Testing for SQLi"
+              "title": "Blind SQL injection with time delays and information retrieval"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Blind SQL injection with time delays and information retrieval.md",
+                "file": "Notes/SQLi Cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blind SQL injection with time delays and information retrieval"
+              "title": "SQLi Cheatsheet"
             }
           }
         ],
@@ -183,11 +183,13 @@
   },
   "active": "cf94edf3da0668d8",
   "lastOpenFiles": [
+    "Notes/Blind SQL injection with time delays and information retrieval.md",
+    "Assets/Pasted image 20250517001849.png",
     "Notes/SQLi Cheatsheet.md",
     "Notes/Testing for SQLi.md",
+    "Assets/Pasted image 20250517001622.png",
     "Templates/Portswigger lab.md",
     "Templates/Note Template.md",
-    "Notes/Blind SQL injection with time delays and information retrieval.md",
     "Assets/Pasted image 20250516194643.png",
     "Assets/Pasted image 20250516194624.png",
     "Notes/Blind SQL injection with conditional responses.md",
@@ -200,8 +202,6 @@
     "Assets/Pasted image 20250515222652.png",
     "Assets/Pasted image 20250515222637.png",
     "Assets/Pasted image 20250515222608.png",
-    "Assets/Pasted image 20250515222600.png",
-    "Assets/Pasted image 20250515222509.png",
     "Notes/Blind SQL injection with conditional errors.md",
     "Notes/Enumerating the database using SQLi.md",
     "Notes/SQL injection attack, listing the database contents on non-Oracle databases.md",

