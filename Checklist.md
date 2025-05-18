@@ -3,4 +3,10 @@
 - [ ] Create a writeup on SQLi OAST and SQLi filter bypass via xml
 
 # Start next
-- [ ] a
+- [ ] File Upload
+- [ ] SSRF
+- [ ] CSRF
+- [ ] NoSQL
+- [ ] CORS
+- [ ] GraphQL API vulnerabilities
+- [ ] Authentication Vulnerabilities
