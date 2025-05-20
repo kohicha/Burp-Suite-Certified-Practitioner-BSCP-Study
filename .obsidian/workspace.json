@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -195,11 +195,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9f3c523e114e9c7",
+  "active": "cf94edf3da0668d8",
   "lastOpenFiles": [
+    "Notes/Blind SQL injection with out-of-band data exfiltration.md",
+    "Assets/Pasted image 20250520143739.png",
     "Assets/Pasted image 20250520143733.png",
     "Cheatsheets/SQLi Cheatsheet.md",
-    "Notes/Blind SQL injection with out-of-band data exfiltration.md",
     "Assets/Pasted image 20250520143530.png",
     "Notes/Blind SQL injection with out-of-band interaction.md",
     "Assets/Pasted image 20250520143351.png",
@@ -218,9 +219,7 @@
     "Assets/Pasted image 20250516194624.png",
     "Notes/Blind SQL injection with conditional responses.md",
     "Notes/Visible error-based SQL injection.md",
-    "Assets/Pasted image 20250516191806.png",
     "Notes/Error-based SQLi.md",
-    "Assets/Pasted image 20250515222742.png",
     "Notes/Blind SQL injection with conditional errors.md",
     "Notes/Enumerating the database using SQLi.md",
     "Notes/SQL injection attack, listing the database contents on non-Oracle databases.md",

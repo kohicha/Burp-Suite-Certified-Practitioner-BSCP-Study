@@ -7,4 +7,6 @@ tags:
 ---
 1. Intercept a request on the filter items by category feature
 ![[Pasted image 20250520143530.png]]
-2. Find a working
+2. Find a working payload
+![[Pasted image 20250520143739.png]]
+3. 
