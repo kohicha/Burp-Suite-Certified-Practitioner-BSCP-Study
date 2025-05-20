@@ -11,7 +11,9 @@ tags:
 > In order to truly understand what's happening under the hood, let's break it down 1 by 1.
 > 1. The application blocks input containing path traversal sequences
 > 2. It then performs a url-decode of the input before using it.
-> what we could do, is 
+> 
+> Before we proceed, here's the application flow if we send a url-encoded payload without the process above: 
+> url-encoded payload -> application decodes this payload () 
 
 
 
