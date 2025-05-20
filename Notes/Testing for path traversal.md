@@ -18,6 +18,6 @@ Another case is if the application escapes the text `../`, but this is rather in
 
 If the application does an initial url-decode of the payload, we could use a double url-encoded payload, like in this example here [[File path traversal, traversal sequences stripped with superfluous URL-decode]].
 
-For example, the application requires a 
+For example, the application checks if the query starts with a path like /var/www/images/, we can just append the simple case payload [[File path traversal, validation of start of path|/var/www/images/../../../../etc/passwd]]
 
-
+Another example is if the application checks if the extension is `.png or etc`, we can use a null byte [[File path traversal, validation of file extension with null byte bypass|%00]] to bypass this.
