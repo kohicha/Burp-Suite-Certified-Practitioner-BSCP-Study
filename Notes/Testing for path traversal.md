@@ -16,5 +16,8 @@ If your simple case payload [[File path traversal, simple case|../../../etc/pass
 
 Another case is if the application escapes the text `../`, but this is rather ineffective if the application only escapes / removes that sequence only once. We can bypass it by using [[File path traversal, traversal sequences stripped non-recursively|....//....//....//....//etc/passwd]]
 
+If the application does an initial url-decode of the payload, we could use a double url-encoded payload, like in this example here [[File path traversal, traversal sequences stripped with superfluous URL-decode]].
+
+
 
 

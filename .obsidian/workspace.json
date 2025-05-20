@@ -22,34 +22,6 @@
             }
           },
           {
-            "id": "397e08ff67c9db84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/File path traversal, traversal sequences stripped non-recursively.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "File path traversal, traversal sequences stripped non-recursively"
-            }
-          },
-          {
-            "id": "8af92a345c929dc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/File path traversal, traversal sequences blocked with absolute path bypass.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "File path traversal, traversal sequences blocked with absolute path bypass"
-            }
-          },
-          {
             "id": "5c94e5eb0700d72a",
             "type": "leaf",
             "state": {
@@ -63,8 +35,7 @@
               "title": "File path traversal, traversal sequences stripped with superfluous URL-decode"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,13 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c94e5eb0700d72a",
+  "active": "cb89145bfc2d764c",
   "lastOpenFiles": [
+    "Notes/File path traversal, traversal sequences stripped non-recursively.md",
+    "Notes/File path traversal, traversal sequences stripped with superfluous URL-decode.md",
+    "Assets/Pasted image 20250520163604.png",
     "Assets/Pasted image 20250520162002.png",
     "Assets/Pasted image 20250520161902.png",
     "Notes/File path traversal, traversal sequences blocked with absolute path bypass.md",
-    "Notes/File path traversal, traversal sequences stripped with superfluous URL-decode.md",
-    "Notes/File path traversal, traversal sequences stripped non-recursively.md",
     "Notes/Testing for path traversal.md",
     "Assets/Pasted image 20250520161547.png",
     "Assets/Pasted image 20250520161427.png",
@@ -224,8 +196,6 @@
     "Assets/Pasted image 20250520161352.png",
     "Assets/Pasted image 20250520161324.png",
     "Assets/Pasted image 20250520160741.png",
-    "Assets/Pasted image 20250520160718.png",
-    "Assets/Pasted image 20250520160716.png",
     "Notes/File path traversal, simple case.md",
     "Cheatsheets/SQLi Cheatsheet.md",
     "Notes/Blind SQLi.md",

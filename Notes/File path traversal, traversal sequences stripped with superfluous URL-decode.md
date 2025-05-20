@@ -13,14 +13,15 @@ tags:
 > 2. It then performs a url-decode of the input before using it.
 > 
 > Before we proceed, here's the application flow if we send a url-encoded payload without the process above: 
-> url-encoded payload -> application decodes this payload (system interpretation) -> executes the payload
+> url-encoded payload -> application decodes this payload (system path interpretation) -> executes the payload
 > 
 > Now, if we add the application flow which performs an initial url-decode before using the current payload, it will look like this:
-> url-encoded payload -> check for traversal -> application url-decode (added by developer) ->  application url-decode (default application behaviour) -> executes the payload
+> url-encoded payload -> check for traversal -> application url-decode (added by developer) ->  application url-decode (system path interpretation) -> executes the payload
 > 
 > So, in conclusion, we could use a double url-encoded payload.
 
-
+![[Pasted image 20250520163604.png]]
+`%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66%25%32%65%25%32%65%25%32%66/etc/passwd`
 
 
 
