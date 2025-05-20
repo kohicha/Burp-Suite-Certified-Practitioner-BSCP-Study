@@ -9,4 +9,7 @@ tags:
 ![[Pasted image 20250520143530.png]]
 2. Find a working payload
 ![[Pasted image 20250520143739.png]]
-3. 
+3. Add your query
+![[Pasted image 20250520145115.png]]
+4. Extract the password
+![[Pasted image 20250520145137.png]]

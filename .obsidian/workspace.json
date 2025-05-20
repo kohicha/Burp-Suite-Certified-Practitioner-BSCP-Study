@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,12 +195,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf94edf3da0668d8",
+  "active": "c9f3c523e114e9c7",
   "lastOpenFiles": [
+    "Assets/Pasted image 20250520145137.png",
+    "Assets/Pasted image 20250520145115.png",
+    "Assets/Pasted image 20250520145109.png",
+    "Cheatsheets/SQLi Cheatsheet.md",
+    "Assets/SQL injection cheat sheet _ Web Security Academy.pdf",
     "Notes/Blind SQL injection with out-of-band data exfiltration.md",
     "Assets/Pasted image 20250520143739.png",
     "Assets/Pasted image 20250520143733.png",
-    "Cheatsheets/SQLi Cheatsheet.md",
     "Assets/Pasted image 20250520143530.png",
     "Notes/Blind SQL injection with out-of-band interaction.md",
     "Assets/Pasted image 20250520143351.png",
@@ -215,8 +219,6 @@
     "Assets/Pasted image 20250517001622.png",
     "Templates/Portswigger lab.md",
     "Templates/Note Template.md",
-    "Assets/Pasted image 20250516194643.png",
-    "Assets/Pasted image 20250516194624.png",
     "Notes/Blind SQL injection with conditional responses.md",
     "Notes/Visible error-based SQL injection.md",
     "Notes/Error-based SQLi.md",
