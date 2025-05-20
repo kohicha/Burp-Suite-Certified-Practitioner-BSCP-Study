@@ -72,5 +72,10 @@ Time-based sqli is using the delay functionality of sql, which we can exploit, t
 > '; IF (SELECT COUNT(Username) FROM Users WHERE Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') = 1 WAITFOR DELAY '0:0:{delay}'--
 
 # Blind sql with out-of-band interaction
+In order to test for blind sql with out-of-band interaction, we would usually have to use UNION SELECT alongside our payload.
 
+[[SQLi Cheatsheet#^f484c1 | DNS LOOKUP CHEATSHEET]]
+Test out different payloads, url encode them, then see what works. We then proceed with Exfiltrating data, depending on the payload we have.
+
+[[SQLi Cheatsheet#^444252 | DNS LOOKUP WITH DATA EXFILTRATION]]
 

