@@ -71,3 +71,6 @@ Time-based sqli is using the delay functionality of sql, which we can exploit, t
 > ```sql
 > '; IF (SELECT COUNT(Username) FROM Users WHERE Username = 'Administrator' AND SUBSTRING(Password, 1, 1) > 'm') = 1 WAITFOR DELAY '0:0:{delay}'--
 
+# Blind sql with out-of-band interaction
+
+
