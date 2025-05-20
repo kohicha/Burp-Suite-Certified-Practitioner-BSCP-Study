@@ -18,6 +18,6 @@ Another case is if the application escapes the text `../`, but this is rather in
 
 If the application does an initial url-decode of the payload, we could use a double url-encoded payload, like in this example here [[File path traversal, traversal sequences stripped with superfluous URL-decode]].
 
-
+For example, the application requires a 
 
 
