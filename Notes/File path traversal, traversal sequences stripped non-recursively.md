@@ -1,0 +1,17 @@
+---
+Title: File path traversal, traversal sequences stripped non-recursively
+tags:
+  - Labs
+  - path-traversal
+---
+1. Intercept an image query request 
+![[Pasted image 20250520161324.png]]
+2. Simple payloads, does not work
+![[Pasted image 20250520161413.png]]
+![[Pasted image 20250520161427.png]]
+3. Try to bypass the path tra
+
+
+
+
+
