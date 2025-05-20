@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Checklist.md",
+                "file": "Cheatsheets/SQLi Cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Checklist"
+              "title": "SQLi Cheatsheet"
             }
           }
         ],
@@ -183,8 +183,9 @@
   },
   "active": "cf94edf3da0668d8",
   "lastOpenFiles": [
-    "Notes/SQLi Cheatsheet.md",
     "Checklist.md",
+    "Cheatsheets",
+    "Cheatsheets/SQLi Cheatsheet.md",
     "Notes/Testing for SQLi.md",
     "Notes/Blind SQL injection with time delays and information retrieval.md",
     "Assets/Pasted image 20250517001849.png",
