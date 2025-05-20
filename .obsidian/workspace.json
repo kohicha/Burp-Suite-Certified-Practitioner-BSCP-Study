@@ -4,49 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "dc6c33c6b28ba1a4",
+        "id": "8ba9ef56a18747b7",
         "type": "tabs",
         "children": [
           {
-            "id": "056a50f979e16cd0",
+            "id": "cb89145bfc2d764c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Blind SQLi.md",
+                "file": "Notes/Testing for path traversal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blind SQLi"
-            }
-          },
-          {
-            "id": "c9f3c523e114e9c7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "cf94edf3da0668d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cheatsheets/SQLi Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQLi Cheatsheet"
+              "title": "Testing for path traversal"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Labs",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,15 +166,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "807d3ee088324ff8",
+  "active": "cb89145bfc2d764c",
   "lastOpenFiles": [
+    "Notes/Testing for path traversal.md",
+    "Cheatsheets/SQLi Cheatsheet.md",
+    "Notes/Blind SQLi.md",
     "Checklist.md",
     "README.md",
     "Notes/Blind SQL injection with out-of-band data exfiltration.md",
     "Assets/Pasted image 20250520145137.png",
     "Assets/Pasted image 20250520145115.png",
     "Assets/Pasted image 20250520145109.png",
-    "Cheatsheets/SQLi Cheatsheet.md",
     "Assets/SQL injection cheat sheet _ Web Security Academy.pdf",
     "Assets/Pasted image 20250520143739.png",
     "Assets/Pasted image 20250520143733.png",
@@ -209,7 +185,6 @@
     "Assets/Pasted image 20250520143351.png",
     "Assets/Pasted image 20250520143331.png",
     "Assets/Pasted image 20250520143155.png",
-    "Notes/Blind SQLi.md",
     "Notes/Testing for SQLi.md",
     "Cheatsheets",
     "Notes/Blind SQL injection with time delays and information retrieval.md",
