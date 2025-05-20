@@ -14,6 +14,7 @@ This is a type of bug / vulnerability in an application, where an attacker is ab
 
 If your simple case payload [[File path traversal, simple case|../../../etc/passwd]] does not work, we can try and use absolute paths instead of the traditional one [[File path traversal, traversal sequences blocked with absolute path bypass | /etc/passwd]].
 
-Another case is if the application escapes the text `../`, but this is rather ineffective if the application only escapes / removes that sequence only once.
+Another case is if the application escapes the text `../`, but this is rather ineffective if the application only escapes / removes that sequence only once. We can bypass it by using [[File path traversal, traversal sequences stripped non-recursively|....//....//....//....//etc/passwd]]
+
 
 
