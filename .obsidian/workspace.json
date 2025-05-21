@@ -35,7 +35,8 @@
               "title": "File path traversal, validation of file extension with null byte bypass"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,10 +181,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21efe843cfc5c332",
+  "active": "cb89145bfc2d764c",
   "lastOpenFiles": [
-    "Notes/File path traversal, validation of file extension with null byte bypass.md",
+    "Assets/Pasted image 20250520165719.png",
+    "Assets/Pasted image 20250520165700.png",
+    "Assets/Pasted image 20250520165655.png",
     "Notes/Testing for path traversal.md",
+    "Notes/File path traversal, validation of file extension with null byte bypass.md",
     "Notes/File path traversal, validation of start of path.md",
     "Assets/Pasted image 20250520165316.png",
     "Assets/Pasted image 20250520165243.png",
@@ -196,8 +200,6 @@
     "Notes/File path traversal, traversal sequences blocked with absolute path bypass.md",
     "Assets/Pasted image 20250520161547.png",
     "Assets/Pasted image 20250520161427.png",
-    "Assets/Pasted image 20250520161413.png",
-    "Assets/Pasted image 20250520161409.png",
     "Notes/File path traversal, simple case.md",
     "Cheatsheets/SQLi Cheatsheet.md",
     "Notes/Blind SQLi.md",
@@ -219,7 +221,6 @@
     "Notes/SQL injection attack, listing the database contents on non-Oracle databases.md",
     "Notes/SQL injection attack, querying the database type and version on MySQL and Microsoft.md",
     "Notes/SQL injection UNION attack, determining the number of columns returned by the query.md",
-    "Notes/SQL injection UNION attack, finding a column containing text.md",
     "Assets",
     "Templates",
     "Notes"
