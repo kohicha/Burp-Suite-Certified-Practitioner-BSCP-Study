@@ -6,8 +6,9 @@ tags:
 ---
 1. Upload and intercept an avatar upload POST request
 ![[Pasted image 20250522141124.png]]
-2. We can see that there is a content-type header on the form data, let's change that to support 
-
+2. We can see that there is a content-type header on the form data, let's change that to `application/x-httpd-php` and the content with a php script that gets the file contents of `/home/carlos/secret`
+![[Pasted image 20250522141626.png]]
+That doesn't work, and the errors return that we can only use `image/jpeg` and `image/png`.
 
 
 
