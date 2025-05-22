@@ -19,7 +19,7 @@ We override the default .htaccess config, and added our own application/x-httpd-
 ![[Pasted image 20250522154520.png]]
 
 ![[Pasted image 20250522154538.png]]
-We can now visit the file, and access our arbitrary p
+We can now visit the arbitrary file as if it was a php file.
 
 
 
