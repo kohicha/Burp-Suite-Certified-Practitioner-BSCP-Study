@@ -8,6 +8,8 @@ File upload vulnerabilities occur whenever there is a lack of validation on a fi
 A file upload vulnerability can have different scenarios, for example, if the server handles uploaded files and executes them, an attacker could escalate that  and turn it into a web shell or access arbitrary commands. Or they could upload a file with the same name as the existing file and overwrite the original file.
 
 # Content-Type Bypass
-Whenever you upload a file, the application first interprets what type of file you are uploading, for example, if you upload an image, the content-type would be `image/*` or `image/png` etc. Now if you upload a larger file, it would resort to using `multipart/form-data` where there are multiple parts of data from the file. Another one is if you upload a  
+Whenever you upload a file, the application first interprets what type of file you are uploading, for example, if you upload an image, the content-type would be `image/*` or `image/png` etc. Now if you upload a larger file, it would resort to using `multipart/form-data` where there are multiple parts of data from the file. 
 
->
+> [!Example Scenario]
+> You can check whether or not the server validates the Original Content-type of the file you are uploading, for example, you uploaded an image, but then change the content-type to `application/php` and the server on the back-end will either return an error, or interpret the image as a php file, depending on its configurations
+
