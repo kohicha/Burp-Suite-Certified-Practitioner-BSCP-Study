@@ -183,6 +183,9 @@
   },
   "active": "7b110fd55e588be4",
   "lastOpenFiles": [
+    "Assets/Pasted image 20250522151416.png",
+    "Assets/Pasted image 20250522151224.png",
+    "Assets/Pasted image 20250522151112.png",
     "Notes/Testing for file upload vulnerabilities.md",
     "Notes/Web shell upload via path traversal.md",
     "Notes/Web shell upload via Content-Type restriction bypass.md",
@@ -195,8 +198,6 @@
     "Assets/Pasted image 20250522135023.png",
     "Assets/Pasted image 20250522134947.png",
     "Assets/Pasted image 20250522134922.png",
-    "Assets/Pasted image 20250522134751.png",
-    "Assets/Pasted image 20250522134538.png",
     "Checklist.md",
     "Notes/Testing for path traversal.md",
     "Notes/File path traversal, traversal sequences stripped with superfluous URL-decode.md",
@@ -220,7 +221,6 @@
     "Notes/Visible error-based SQL injection.md",
     "Notes/Error-based SQLi.md",
     "Notes/Blind SQL injection with conditional errors.md",
-    "Notes/Enumerating the database using SQLi.md",
     "Assets",
     "Templates",
     "Notes"
