@@ -14,4 +14,6 @@ Whenever you upload a file, the application first interprets what type of file y
 > You can check whether or not the server validates the Original Content-type of the file you are uploading, for example, you uploaded an image, but then you change the contents and file name of it to `.php`, and the server still executes the file as if it was a .php file. Read [[Web shell upload via Content-Type restriction bypass]].
 
 # Uploading the file to another directory
-Now, we can actually try and chain some vulnerabilities whenever we do 
+Now, we can actually try and chain some vulnerabilities when trying to exploit file upload vulnerabilities. We can use path traversal, to upload the file to another directory. This is because there is no sanitation function that is implemented or working on the server side of the application, in which can be exploited by the attacker. 
+
+
