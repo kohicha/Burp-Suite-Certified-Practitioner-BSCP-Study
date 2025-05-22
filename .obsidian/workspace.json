@@ -35,8 +35,7 @@
               "title": "Web shell upload via path traversal"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,23 +180,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b110fd55e588be4",
+  "active": "8c41803dab8e9055",
   "lastOpenFiles": [
+    "Notes/Web shell upload via path traversal.md",
+    "Assets/Pasted image 20250522152021.png",
     "Assets/Pasted image 20250522151955.png",
     "Assets/Pasted image 20250522151910.png",
     "Assets/Pasted image 20250522151416.png",
     "Assets/Pasted image 20250522151224.png",
     "Assets/Pasted image 20250522151112.png",
     "Notes/Testing for file upload vulnerabilities.md",
-    "Notes/Web shell upload via path traversal.md",
     "Notes/Web shell upload via Content-Type restriction bypass.md",
     "Assets/Pasted image 20250522142203.png",
     "Assets/Pasted image 20250522142137.png",
     "Assets/Pasted image 20250522141626.png",
     "Assets/Pasted image 20250522141124.png",
     "Notes/Remote code execution via web shell upload.md",
-    "Assets/Pasted image 20250522135025.png",
-    "Assets/Pasted image 20250522135023.png",
     "Checklist.md",
     "Notes/Testing for path traversal.md",
     "Notes/File path traversal, traversal sequences stripped with superfluous URL-decode.md",

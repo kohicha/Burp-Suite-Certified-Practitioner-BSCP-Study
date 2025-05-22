@@ -15,7 +15,8 @@ A normal path-traversal doesn't work
 ![[Pasted image 20250522151910.png]]
 Let's try to url-encode it
 ![[Pasted image 20250522151955.png]]
-And now it has been uploaded to the /files directory, we ca
+And now it has been uploaded to the /files directory, we can confirm it by visiting the site.
+![[Pasted image 20250522152021.png]]
 
 
 
