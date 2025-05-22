@@ -183,6 +183,8 @@
   },
   "active": "7296848966ac6570",
   "lastOpenFiles": [
+    "Assets/Pasted image 20250522142203.png",
+    "Assets/Pasted image 20250522142137.png",
     "Assets/Pasted image 20250522141626.png",
     "Assets/Pasted image 20250522141124.png",
     "Notes/Remote code execution via web shell upload.md",
@@ -200,8 +202,6 @@
     "README.md",
     "Notes/File path traversal, validation of file extension with null byte bypass.md",
     "Assets/Pasted image 20250520165719.png",
-    "Assets/Pasted image 20250520165700.png",
-    "Assets/Pasted image 20250520165655.png",
     "Notes/File path traversal, validation of start of path.md",
     "Notes/File path traversal, traversal sequences stripped non-recursively.md",
     "Notes/File path traversal, traversal sequences blocked with absolute path bypass.md",
