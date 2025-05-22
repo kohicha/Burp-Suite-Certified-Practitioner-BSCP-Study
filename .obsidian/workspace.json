@@ -35,8 +35,7 @@
               "title": "Web shell upload via Content-Type restriction bypass"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,14 +180,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7296848966ac6570",
+  "active": "8c41803dab8e9055",
   "lastOpenFiles": [
+    "Notes/Web shell upload via Content-Type restriction bypass.md",
     "Assets/Pasted image 20250522142203.png",
     "Assets/Pasted image 20250522142137.png",
     "Assets/Pasted image 20250522141626.png",
     "Assets/Pasted image 20250522141124.png",
     "Notes/Remote code execution via web shell upload.md",
-    "Notes/Web shell upload via Content-Type restriction bypass.md",
     "Notes/Testing for file upload vulnerabilities.md",
     "Assets/Pasted image 20250522135025.png",
     "Assets/Pasted image 20250522135023.png",
@@ -201,7 +200,6 @@
     "Notes/File path traversal, traversal sequences stripped with superfluous URL-decode.md",
     "README.md",
     "Notes/File path traversal, validation of file extension with null byte bypass.md",
-    "Assets/Pasted image 20250520165719.png",
     "Notes/File path traversal, validation of start of path.md",
     "Notes/File path traversal, traversal sequences stripped non-recursively.md",
     "Notes/File path traversal, traversal sequences blocked with absolute path bypass.md",

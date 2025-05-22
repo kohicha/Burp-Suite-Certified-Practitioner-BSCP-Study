@@ -11,5 +11,5 @@ A file upload vulnerability can have different scenarios, for example, if the se
 Whenever you upload a file, the application first interprets what type of file you are uploading, for example, if you upload an image, the content-type would be `image/*` or `image/png` etc. Now if you upload a larger file, it would resort to using `multipart/form-data` where there are multiple parts of data from the file. 
 
 > [!Example Scenario]
-> You can check whether or not the server validates the Original Content-type of the file you are uploading, for example, you uploaded an image, but then change the content-type to `application/php` and the server on the back-end will either return an error, or interpret the image as a php file, depending on its configurations
+> You can check whether or not the server validates the Original Content-type of the file you are uploading, for example, you uploaded an image, but then you change the contents and file name of it to `.php`, and the server s
 
