@@ -16,4 +16,6 @@ Whenever you upload a file, the application first interprets what type of file y
 # Uploading the file to another directory
 Now, we can actually try and chain some vulnerabilities when trying to exploit file upload vulnerabilities. We can use path traversal, to upload the file to another directory. This is because there is no sanitation function that is implemented or working on the server side of the application, in which can be exploited by the attacker. [[Web shell upload via path traversal|Read]]
 
-# 
+# Blacklisting file-types
+Blacklisting file-types can prevent arbitrary extensions, well, not all of it. In some servers, like Apache, we can try and override their default configuration in the same directory. [[Web shell upload via extension blacklist bypass|Read]]. We can also try to bypass these, by using obfuscation techniques, e.g `.jpg.php` or `.p.phphp`. An example of that is using a [[Web shell upload via obfuscated file extension|null byte `%00`]].
+

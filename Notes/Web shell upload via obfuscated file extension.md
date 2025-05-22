@@ -10,6 +10,8 @@ tags:
 ![[Pasted image 20250522160928.png]]
 3. We'll use a null byte to bypass the filter
 ![[Pasted image 20250522161140.png]]
+![[Pasted image 20250522161154.png]]
+hehe
 
 
 

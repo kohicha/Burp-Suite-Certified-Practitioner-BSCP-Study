@@ -35,8 +35,7 @@
               "title": "Web shell upload via obfuscated file extension"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,22 +180,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ab80622bcd783fbb",
+  "active": "8c41803dab8e9055",
   "lastOpenFiles": [
+    "Notes/Web shell upload via obfuscated file extension.md",
+    "Notes/Testing for file upload vulnerabilities.md",
+    "Assets/Pasted image 20250522161154.png",
     "Assets/Pasted image 20250522161140.png",
     "Assets/Pasted image 20250522161137.png",
     "Assets/Pasted image 20250522161119.png",
     "Assets/Pasted image 20250522160928.png",
     "Assets/Pasted image 20250522160827.png",
     "Assets/Pasted image 20250522160824.png",
-    "Notes/Testing for file upload vulnerabilities.md",
-    "Notes/Web shell upload via obfuscated file extension.md",
     "Notes/Web shell upload via extension blacklist bypass.md",
     "Assets/Pasted image 20250522154538.png",
     "Assets/Pasted image 20250522154520.png",
     "Assets/Pasted image 20250522154402.png",
-    "Assets/Pasted image 20250522154252.png",
-    "Assets/Pasted image 20250522154152.png",
     "Notes/Web shell upload via path traversal.md",
     "Notes/Web shell upload via Content-Type restriction bypass.md",
     "Notes/Remote code execution via web shell upload.md",
