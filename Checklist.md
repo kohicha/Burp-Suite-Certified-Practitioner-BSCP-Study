@@ -11,3 +11,7 @@
 - [ ] CORS
 - [ ] GraphQL API vulnerabilities
 - [ ] Authentication Vulnerabilities
+
+# Extras
+
+- [ ] Do TryHackMe Owasp Top 10
