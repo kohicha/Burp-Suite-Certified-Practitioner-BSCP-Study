@@ -11,5 +11,7 @@ A file upload vulnerability can have different scenarios, for example, if the se
 Whenever you upload a file, the application first interprets what type of file you are uploading, for example, if you upload an image, the content-type would be `image/*` or `image/png` etc. Now if you upload a larger file, it would resort to using `multipart/form-data` where there are multiple parts of data from the file. 
 
 > [!Example Scenario]
-> You can check whether or not the server validates the Original Content-type of the file you are uploading, for example, you uploaded an image, but then you change the contents and file name of it to `.php`, and the server s
+> You can check whether or not the server validates the Original Content-type of the file you are uploading, for example, you uploaded an image, but then you change the contents and file name of it to `.php`, and the server still executes the file as if it was a .php file. Read [[Web shell upload via Content-Type restriction bypass]].
 
+# Uploading the file to another directory
+Now, we can actually try and chain some vulnerabilities whenever we do 
