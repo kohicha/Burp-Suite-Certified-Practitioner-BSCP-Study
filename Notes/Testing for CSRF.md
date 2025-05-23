@@ -13,7 +13,14 @@ CSRF is basically an attack that lets the attacker perform an action on behalf o
 > [!faq] Where do you deliver these exploits?
 > An example of where you can deploy a csrf request, is in a feature of a website that is vulnerable to reflected xss.
 > ```html
-> hello 
+> <img src="http://vulnerable-site.com/email/change?email=pwned@evil-user.net">
+> ```
+> This would automatically create the request, upon the victim visiting the site. Another one would be an attacker creating a website of their own, that upon visiting, will redirect the user to a csrf payload.
+
+
+
+
+
 
 
 
