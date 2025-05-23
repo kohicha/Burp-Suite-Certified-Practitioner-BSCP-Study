@@ -183,6 +183,7 @@
   },
   "active": "56a62539d858a1f5",
   "lastOpenFiles": [
+    "Assets/Pasted image 20250523155357.png",
     "Notes/Testing for CSRF.md",
     "Notes/CSRF where token validation depends on token being present.md",
     "Notes/CSRF where token validation depends on request method.md",
@@ -220,7 +221,6 @@
     "Notes/Testing for SQLi.md",
     "Cheatsheets",
     "Notes/Blind SQL injection with time delays and information retrieval.md",
-    "Templates/Portswigger lab.md",
     "Assets",
     "Templates",
     "Notes"
