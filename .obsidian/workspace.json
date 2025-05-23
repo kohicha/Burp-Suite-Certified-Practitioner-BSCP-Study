@@ -197,6 +197,7 @@
   },
   "active": "ad66a3ee165afe25",
   "lastOpenFiles": [
+    "Checklist.md",
     "Notes/Remote code execution via polyglot web shell upload.md",
     "Assets/Pasted image 20250522163551.png",
     "Assets/Pasted image 20250522163529.png",
@@ -214,7 +215,6 @@
     "Notes/Web shell upload via path traversal.md",
     "Notes/Web shell upload via Content-Type restriction bypass.md",
     "Notes/Remote code execution via web shell upload.md",
-    "Checklist.md",
     "Notes/Testing for path traversal.md",
     "Notes/File path traversal, traversal sequences stripped with superfluous URL-decode.md",
     "README.md",
