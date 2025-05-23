@@ -183,6 +183,7 @@
   },
   "active": "c0522c1f56e9c039",
   "lastOpenFiles": [
+    "Assets/Pasted image 20250523153426.png",
     "Assets/Pasted image 20250523153201.png",
     "Notes/Testing for CSRF.md",
     "Checklist.md",
@@ -199,7 +200,6 @@
     "Assets/Pasted image 20250522161137.png",
     "Assets/Pasted image 20250522161119.png",
     "Assets/Pasted image 20250522160928.png",
-    "Assets/Pasted image 20250522160827.png",
     "Notes/Web shell upload via extension blacklist bypass.md",
     "Notes/Web shell upload via path traversal.md",
     "Notes/Web shell upload via Content-Type restriction bypass.md",
