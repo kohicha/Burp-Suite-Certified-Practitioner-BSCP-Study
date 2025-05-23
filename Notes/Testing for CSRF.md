@@ -20,7 +20,7 @@ CSRF is basically an attack that lets the attacker perform an action on behalf o
 # COMMON CSRF FLAWS
 1. [[CSRF where token validation depends on request method]]
 2. [[CSRF where token validation depends on token being present]]
-
+3. [[CS]]
 
 
 
