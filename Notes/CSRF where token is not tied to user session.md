@@ -15,8 +15,9 @@ tags:
 
 # Final payload
 1. Intercept another request and generate csrf payload
-2. send to 
-
+![[Pasted image 20250523160508.png]]
+2. send to exploit server, send to victim, and we get, MONEY!
+![[Pasted image 20250523160544.png]]
 
 
 
