@@ -17,7 +17,9 @@ CSRF is basically an attack that lets the attacker perform an action on behalf o
 > ```
 > This would automatically create the request, upon the victim visiting the site. Another one would be an attacker creating a website of their own, that upon visiting, will redirect the user to a csrf payload.
 
-
+# COMMON CSRF FLAWS
+1. [[CSRF where token validation depends on request method]]
+2. [[CSRF where token validation depends on token being present]]
 
 
 
