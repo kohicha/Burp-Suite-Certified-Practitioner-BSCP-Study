@@ -168,8 +168,9 @@
   },
   "active": "c7b4a13cf1c06326",
   "lastOpenFiles": [
-    "Notes/Broken Access Control.md",
+    "Notes/Untitled.md",
     "Today's Agenda.md",
+    "Notes/Broken Access Control.md",
     "Notes/CSRF where token validation depends on token being present.md",
     "Notes/CSRF where token is not tied to user session.md",
     "Notes/Testing for CSRF.md",
@@ -204,7 +205,6 @@
     "Notes/Blind SQLi.md",
     "Notes/Blind SQL injection with out-of-band data exfiltration.md",
     "Assets/SQL injection cheat sheet _ Web Security Academy.pdf",
-    "Notes/Blind SQL injection with out-of-band interaction.md",
     "Cheatsheets",
     "Assets",
     "Templates",
