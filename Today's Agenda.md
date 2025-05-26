@@ -2,7 +2,7 @@
 - [ ] Study CIA Triad
 - [ ] Study CVSS Scoring
 
-- [ ] Access Control
+- [x] Access Control
 - [ ] Authentication
 - [ ] Cross-site scripting
 - [ ] Server-side request forgery
