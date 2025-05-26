@@ -5,7 +5,7 @@
 - [x] Access Control
 - [x] Authentication
 
-- [ ] Server-side request forgery
+- [x] Server-side request forgery
 - [ ] XXE
 - [ ] Insecure deserialization
 - [ ] Cross-site scripting
