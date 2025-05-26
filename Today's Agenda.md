@@ -13,7 +13,7 @@
 Tools needed for setup later
 subfinder
 ffuf
-
+feroxbuster
 
 
 
