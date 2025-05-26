@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/CSRF where token is not tied to user session.md",
+                "file": "Today's Agenda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSRF where token is not tied to user session"
+              "title": "Today's Agenda"
             }
           },
           {
@@ -197,9 +197,9 @@
   },
   "active": "9adbae63f40ff8eb",
   "lastOpenFiles": [
+    "Notes/CSRF where token is not tied to user session.md",
     "Today's Agenda.md",
     "Notes/Testing for CSRF.md",
-    "Notes/CSRF where token is not tied to user session.md",
     "Assets/Pasted image 20250523160544.png",
     "Assets/Pasted image 20250523160508.png",
     "Assets/Pasted image 20250523160322.png",
