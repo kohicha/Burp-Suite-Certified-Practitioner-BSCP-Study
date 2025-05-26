@@ -3,7 +3,7 @@
 - [ ] Study CVSS Scoring
 
 - [x] Access Control
-- [ ] Authentication
+- [x] Authentication
 - [ ] Cross-site scripting
 - [ ] Server-side request forgery
 - [ ] XXE
