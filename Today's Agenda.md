@@ -4,10 +4,11 @@
 
 - [x] Access Control
 - [x] Authentication
-- [ ] Cross-site scripting
+
 - [ ] Server-side request forgery
 - [ ] XXE
 - [ ] Insecure deserialization
+- [ ] Cross-site scripting
 - [ ] SQL Injection (Revisiting labs)
 
 Tools needed for setup later
