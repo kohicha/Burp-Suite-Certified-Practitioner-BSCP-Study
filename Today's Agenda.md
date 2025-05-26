@@ -10,6 +10,12 @@
 - [ ] Insecure deserialization
 - [ ] SQL Injection (Revisiting labs)
 
+Tools needed for setup later
+subfinder
+ffuf
+
+
+
 
 **My Recommendation for Your Focus:**
 
