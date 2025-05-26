@@ -1,0 +1,4 @@
+- [ ] Study OWASP Top 10
+- [ ] Study CIA Triad
+- [ ] Study CVSS Scoring
+- [ ] 
